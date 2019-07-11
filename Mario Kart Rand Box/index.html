@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Mario Kart Item Box</title>
+        <link rel="stylesheet" text="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>MARIO KART ITEM BOX SIMULATOR</h1>
+        <hr>
+
+        <p>You're in an intense game of Mario Kart! You see an item box up ahead of you on the road! Enter your position in the race <strong>(1-12) </strong>and then click on the picture of the item box to see what you get! <em>(If you're in the first 6 you have a different chance of getting each item as opposed to the last 6)</em> <input id="position" type="number"></p>
+        <img id="box" src="images/box.png" alt="Item Box">
+        <hr>
+
+        <h2>Items:</h2>
+        <ul>
+            <li>Bananas: <span id="bananaNum">0</span></li>
+            <li>Green Shells: <span id="shellNum">0</span></li>
+            <li>Stars: <span id="starNum">0</span></li>
+            <li>Golden Mushrooms: <span id="mushroomNum">0</span></li>
+            <li>Bullet Bills: <span id="bulletNum">0</span></li>
+        </ul>
+        <hr>
+        <p id="resultPics"> </p>
+    </body>
+    <!-- Load Javascript -->
+    <script src="main.js"></script>
+</html>
